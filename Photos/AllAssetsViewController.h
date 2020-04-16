@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  AllAssetsViewController.h
 //  Photos
 //
 //  Created by qiyu on 2020/4/16.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface AllAssetsViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
